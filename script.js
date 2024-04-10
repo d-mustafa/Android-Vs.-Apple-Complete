@@ -6,13 +6,13 @@ let img = document.getElementById("an-vs-ap-img");
 let exploreBtn = document.getElementById("explore-btn");
 let html = document.getElementById("the-html");
 
-// Android
-
 // Event Listener
 androidBtn.addEventListener("click", androidPage);
+appleBtn.addEventListener("click", applePage);
 
 // Event Function
 function androidPage() {
+  // OUTPUT
   // Image Change
   img.src = "images/Android-Logo.jpg";
 
@@ -30,12 +30,9 @@ function androidPage() {
   appleBtn.classList.remove("active");
 }
 
-// Apple
-// Event Listener
-appleBtn.addEventListener("click", applePage);
 
-// Event Function
 function applePage() {
+  // OUTPUT
   // Image Change
   img.src = "images/Apple-Logo.jpg";
 
